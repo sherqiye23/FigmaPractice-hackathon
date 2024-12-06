@@ -1,10 +1,14 @@
 .hero{
     display: flex;
-    margin-top: 3rem;
 }
+/* 
+.asideNone {
+
+} */
 
 aside{
-    width: 10%;
+    gap: 20px;
+    width: 15%;
     padding: 20px 30px;
     height: 100vh;
     display: flex;
@@ -12,8 +16,12 @@ aside{
     border: none;
     border-right: 1px solid  rgb(224, 224, 224) ;
     border-top: 1px solid rgb(224, 224, 224);
+    i {
+        margin-right: 10px;
+    }
 }
 a{
+    display: flex;
     color: grey;
     font-size: 1.6rem;
 }
@@ -36,6 +44,9 @@ a{
     padding: 10px 20px ;
     text-transform: capitalize;
 }
+.wrapper-left {
+    display: flex;
+}
 
 .active{
     border: none;
@@ -52,7 +63,7 @@ a{
 
 
 .wrapper-right i{
-    font-size: 1.8rem;
+    font-size: 1.8rem;  
 }
 
 header {
