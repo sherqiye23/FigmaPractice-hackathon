@@ -9,3 +9,67 @@
     background-color: transparent;
     list-style: none;
 }
+
+header {
+    padding: 20px;
+    border-bottom: 1px solid #bdbdbd;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container img {
+    width: 35px;
+    height: 35px;
+}
+.header-logo {
+    color: #464646;
+    font-size: 23px;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-logo .classroom {
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-logo .classroom span:hover{
+    text-decoration: underline;
+    color: rgb(84, 174, 82);
+}
+.header-logo  .group-name:hover{
+    text-decoration: underline;
+    color: rgb(82, 104, 169);
+}
+
+.header-logo .bars {
+    border-radius: 50%;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    transition: all .1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-logo .bars:hover {
+    background-color: rgb(218, 218, 218);
+}
+
+header .header-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.google-apps-icon {
+    color: #464646;
+    font-size: 20px;
+}
+.user-image img{
+    border-radius: 50%;
+}
