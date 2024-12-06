@@ -1,6 +1,14 @@
 .hero{
     display: flex;
-    margin-top: 3rem;
+}
+/* 
+.asideNone {
+
+} */
+
+aside{
+    gap: 20px;
+    width: 15%;
 }
 
 aside{
@@ -12,6 +20,14 @@ aside{
     border: none;
     border-right: 1px solid  rgb(224, 224, 224) ;
     border-top: 1px solid rgb(224, 224, 224);
+
+    i {
+        margin-right: 10px;
+    }
+}
+a{
+    display: flex;
+
 }
 a{
     color: grey;
@@ -27,6 +43,35 @@ a{
     display: flex;
     justify-content: space-between;
     padding: 20px 30px;
+    border: none;
+    border-top: 1px solid rgb(224, 224, 224);
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+.wrapper-left a{
+    padding: 10px 20px ;
+    text-transform: capitalize;
+}
+.wrapper-left {
+    display: flex;
+}
+
+.active{
+    border: none;
+    border-bottom: 2px solid blue;
+}
+
+
+.wrapper-right{
+    display: flex;
+    gap: 20px;
+    color: grey;
+    
+}
+
+
+.wrapper-right i{
+    font-size: 1.8rem;  
     border: none;
     border-top: 1px solid rgb(224, 224, 224);
     border-bottom: 1px solid rgb(224, 224, 224);
@@ -54,7 +99,6 @@ a{
 .wrapper-right i{
     font-size: 1.8rem;
 }
-
 header {
     padding: 20px;
     border-bottom: 1px solid #bdbdbd;
